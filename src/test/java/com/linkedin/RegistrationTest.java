@@ -12,7 +12,7 @@ public class RegistrationTest {
         registrationPage.open();
         String uniqueEmail = "lnkdn_"+System.currentTimeMillis()+"@mailinator.com";
         registrationPage.submitRegistrationForm("First", "Last", uniqueEmail, "P@ssword123");
-        //assert securityVerification form displayed
+        //assert securityVerification form displayed;
         registrationPage.close();
     }
 }
